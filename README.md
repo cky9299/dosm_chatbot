@@ -130,7 +130,7 @@ $$
 
 | median/p50 latency (s) | p95 latency (s) | retrieval hit-rate  | hallucination rate |
 |----------|----------|----------|----------|
-| 1.258  | 1.618 | 1  | 0  |
+| 1.258  | 1.618 | 0.8  | 0  |
 
 
 ## logging
