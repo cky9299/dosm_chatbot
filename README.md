@@ -4,7 +4,7 @@ A chatbot that answers FAQ about Monthly Unemployment, based on the Department o
 To focus on a narrow slice of the dataset, only data from the last 24 months is included in its knowledge base.
 
 ## Visual flow
-![Visual flow](res\images\flow.png)
+![Visual flow](res/images/flow.png)
 
 ## Actions
 - Export data to CSV
@@ -113,16 +113,11 @@ The median latency is computed from the recorded latencies.
 
 The rates are computed using the formula:
 
-$$
-\begin{align*}
 
-\text{Retrieval hit-rate} = \frac{\text{Number of hits}}{\text{total chatbot queries}}
-\\
-\\
-\text{Hallucination rate} = \frac{\text{Number of hallucinations}}{\text{total chatbot queries}}
 
-\end{align*}
-$$
+Retrieval hit-rate = Number of hits / total chatbot queries
+
+Hallucination rate = Number of hallucinations / total chatbot queries
 
 
 
@@ -134,9 +129,9 @@ $$
 
 
 ## logging
-![Conversation Log](res\images\Conversation_Log.png)
+![Conversation Log](res/images/Conversation_Log.png)
 
-![latencies_in_steps](res\images\latencies_in_steps.png)
+![latencies_in_steps](res/images/latencies_in_steps.png)
 
 
 
